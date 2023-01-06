@@ -1,11 +1,7 @@
 <?php
 
 include_once 'config/init.php';
-$template = new Template('templates/frontpage.php');
+$template = new Template('templates/home.php');
 
-$template->title = 'Moja apka';
+$template->title = 'Strona główna';
 echo $template;
-
-$db = new Database();
-
-dump($db->query());

@@ -1,9 +1,14 @@
-body {
-  background-color: black;
-  color: #c3c3c3;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Raleway';
 }
 
-* {
-  color: #c3c3c3;
+a {
+  text-decoration: none;
+  color: #000000;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,8 +1,15 @@
-body{
-    background-color: black;
-    color: rgb(195, 195, 195);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Raleway';
 }
 
-*{
-    color: rgb(195, 195, 195);
+a{
+    text-decoration: none;
+    color: #000000;
 }
+
+

@@ -28,10 +28,8 @@ class Database{
         $this->result = $this->pdo->prepare($query);
     }
 
-    public function bind($params){
-        foreach($params as $param => &$value) {
-            $this->result->bindParam($param, $value);
-        }
+    public function bind($param, $value){
+        $this->result->bindParam($param, $value);
 	}
 
     public function exec(){
@@ -40,12 +38,12 @@ class Database{
 
     public function getResult(){
         $this->result->execute();
-        return $this->result->fetchAll(PDO::FETCH_OBJ);
+        return $this->result->fetchAll();
     }
 
     public function getResultSingle(){
         $this->result->execute();
-        return $this->result->fetch(PDO::FETCH_OBJ);
+        return $this->result->fetch();
     }
 
 }
