@@ -1,6 +1,11 @@
-body{
-    background-color: rgb(0, 0, 0);
-}
+/* Variables */
+@import "variables";
 
-@import './module/nav.scss';
-@import './module/monika.scss';
+/* Typography */
+@import "typography/fonts";
+
+/* Mixins */
+@import "mixins";
+
+/* Base */
+@import "base";
