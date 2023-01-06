@@ -10,17 +10,26 @@
 </head>
 <body>
 
-<nav>
-    <div class="logo">
+<nav class="nav-bar">
+    <div class="nav-bar__logo">
         <img src="img/logo.webp" alt="">
     </div>
-    <div class="main-menu">
+    <div class="nav-bar__menu">
         <ul>
-            <li><a href="index">home</a></li>
-            <li><a href="aboutus">about us</a></li>
-            <li><a href="projects">projects</a></li>
-            <li><a href="contact">contact</a></li>
-            <li><a href="blog">blog</a></li>
+            <li><a class="<?php if(substr($_SERVER['PHP_SELF'], 5) == 'index.php') echo 'active' ?>" href="index">home</a></li>
+            <li><a class="<?php if(substr($_SERVER['PHP_SELF'], 5) == 'aboutus.php') echo 'active' ?>" href="aboutus">about us</a></li>
+            <li><a class="<?php if(substr($_SERVER['PHP_SELF'], 5) == 'projects.php') echo 'active' ?>" href="projects">projects</a></li>
+            <li><a class="<?php if(substr($_SERVER['PHP_SELF'], 5) == 'contact.php') echo 'active' ?>" href="contact">contact</a></li>
+            <li><a class="<?php if(substr($_SERVER['PHP_SELF'], 5) == 'blog.php') echo 'active' ?>" href="blog">blog</a></li>
         </ul>
     </div>
 </nav>
+
+<div class="slider">
+    <div class="slider__left">
+    
+    </div>
+    <div class="slider__image">
+        <img src="img/slider.webp" alt="">
+    </div>
+</div>
