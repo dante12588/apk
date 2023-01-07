@@ -2,22 +2,29 @@
 
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-top: 40px;
-
-    &__logo{
-
-    }
 
     &__menu ul{
         display: flex;
-        margin-left: 100px;
+        flex-wrap: wrap;
 
         li {
-            margin: 0 30px;
+            // margin: 0 30px;
         }
 
         a{
-            font-size: 2em;
+            font-size: 1.3em;
+            @include breakpoint(xs){
+                font-size: 1.5em;
+            }
+            @include breakpoint(sm){
+                font-size: 1.8em;
+            }
+            @include breakpoint(md){
+                font-size: 2em;
+            }
+            margin-left: 1em;
             position: relative;
 
             &::after{

@@ -1,3 +1,32 @@
 body{
+    overflow-x: hidden;
+}
 
+.n-width{
+    max-width: 100%;
+    margin: 0 20px;
+    @include breakpoint(xs){
+        max-width: 500px;
+        margin: auto;
+    }
+    @include breakpoint(sm){
+        max-width: 740px;
+    }
+    @include breakpoint(md){
+        max-width: 920px;
+    }
+    @include breakpoint(xl){
+        max-width: 1140px;
+    }
+}
+
+.f-width{
+    max-width: 100%;
+}
+
+p, div, span{
+    font-size: 1.4em;
+    @include breakpoint(md){
+        font-size: 1.8em;
+    }
 }

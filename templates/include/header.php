@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<nav class="nav-bar">
+<nav class="nav-bar n-width">
     <div class="nav-bar__logo">
         <img src="img/logo.webp" alt="">
     </div>
@@ -24,12 +24,3 @@
         </ul>
     </div>
 </nav>
-
-<div class="slider">
-    <div class="slider__left">
-    
-    </div>
-    <div class="slider__image">
-        <img src="img/slider.webp" alt="">
-    </div>
-</div>
