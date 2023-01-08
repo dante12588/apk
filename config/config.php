@@ -7,3 +7,4 @@ define('DB_PASSWD', 'root');
 define('DB_NAME', 'apk');
 
 define('ADMIN', true);
+

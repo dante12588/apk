@@ -37,14 +37,13 @@ if(ADMIN){
 
 ?>
 
-<form method="post" enctype="multipart/form-data">
+<form id="form" method="post" enctype="multipart/form-data">
     <input type="text" name="title" placeholder="Tytuł posta...">
     <?php echo isset($error['title']) ? $error['title'] : '' ?>
     <textarea tyle="text" name="content" placeholder="Treść posta..."></textarea>
     <?php echo isset($error['content']) ? $error['content'] : '' ?>
     <input type="file" name="file">
     <?php echo isset($error['file']) ? $error['file'] : '' ?>
-    <button>Wyślij</button>
+    <button>Zapisz</button>
 </form>
-
 
