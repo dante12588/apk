@@ -11,6 +11,6 @@ $template->title = 'Strona z wpisami';
 //Posty które mają się wyświetlić na podstronie blog
 $posts = new Posts();
 $template->posts = $posts->getPosts();
-$posts->addPost('tytul posta', 'content asdasd ', 2);
+// $posts->addPost('tytul posta', 'content asdasd ', 2);
 
 echo $template;

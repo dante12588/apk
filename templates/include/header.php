@@ -21,6 +21,11 @@
             <li><a class="<?php if(substr($_SERVER['PHP_SELF'], 5) == 'projects.php') echo 'active' ?>" href="projects">projects</a></li>
             <li><a class="<?php if(substr($_SERVER['PHP_SELF'], 5) == 'contact.php') echo 'active' ?>" href="contact">contact</a></li>
             <li><a class="<?php if(substr($_SERVER['PHP_SELF'], 5) == 'blog.php') echo 'active' ?>" href="blog">blog</a></li>
+            
+            <?php if (ADMIN) { ?>
+                <li><a class="<?php if(substr($_SERVER['PHP_SELF'], 5) == 'admin.php') echo 'active' ?>" href="admin">[ panel admin ]</a></li>
+            <?php } ?>
+            
         </ul>
     </div>
 </nav>
