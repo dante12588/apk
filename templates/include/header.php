@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/apk/css/style.css">
 </head>
 <body>
 
 <nav class="nav-bar n-width">
     <div class="nav-bar__logo">
-        <a href="index.php"><img src="img/logo.webp" alt=""></a>
+        <a href="index.php"><img src="/apk/img/logo.webp" alt=""></a>
     </div>
     <div class="nav-bar__menu">
         <ul>
